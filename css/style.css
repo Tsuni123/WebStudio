@@ -1,0 +1,176 @@
+.container{ 
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+} 
+
+.section-hero{
+   padding-top: 200px;
+   padding-bottom: 200px;
+   
+}
+
+.section-hero-title{
+   text-align: center;
+   margin: 0 auto;
+   max-width: 696px;
+   font-family: Roboto;
+   color: #ffff;
+   font-size: 44px;
+   font-weight: 900;
+   line-height: 60px;
+}
+
+.section-hero-btn{
+   max-width: 216px;
+   height: 50px;
+   display: block;
+   margin: 0 auto;
+   margin-top: 30px;
+   color: #ffff;
+   border-radius: 4px;
+  padding: 10px 32px;
+}
+
+.section-features{
+   padding-top: 94px;
+   padding-bottom: 94px;
+
+}
+
+
+.section-work{
+   padding-bottom: 94px;
+
+}
+
+.section-team{
+   padding-bottom: 94px;
+   padding-top: 94px;
+
+}
+
+
+.footer{
+   padding-bottom: 60px;
+   padding-top: 60px;
+
+}
+
+.header-wrap{
+   display: flex;
+   gap: 93px;
+   align-items: center;
+
+}
+
+.nav-list{
+   display: flex;
+   gap: 50px;
+
+}
+
+.contacts-list{
+   display: flex;
+   gap: 50px;
+   margin-left: auto;
+}
+
+
+.features-list{
+   gap: 30px;
+   display: flex;
+}
+
+.features-list-title{
+   margin-bottom: 10px;
+
+}
+
+.work-list{
+   display: flex;
+   gap: 30px;
+   margin-top: 50px;
+}
+
+.section-work-title{
+   text-align: center;
+}
+
+.team-list{
+   display: flex;
+   gap: 30px;
+}
+
+.team-list-img{
+   max-width: 270px;
+ 
+}
+
+.team-list-text{
+   color: var(second);
+   margin-top: 10px;
+   text-align: center;
+}
+
+.address{
+   margin-bottom: 20px;
+}
+
+.address-list-link{
+   color: white;
+}
+
+.features-list-item::before{ 
+   content: "";
+   background-image: url ;
+   background-repeat:no-repeat;
+   display: inline-block;
+   width: 270px;
+   height: 120px;
+   margin-bottom: 30px;
+} 
+
+
+
+.header{
+   padding-top: 32px;
+   padding-bottom: 32px;
+
+}
+
+.section-hero{
+ background-color: #2F303A;
+}
+
+.section-hero-btn{
+   background-color: #2196F3;
+}
+
+
+.section-team-title{
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.team-list-content-wrap{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+.footer{
+   background-color: #2F303A;
+}
+
+.address{
+   margin-top: 20px;
+}
+
+.address-list-item{
+   margin-bottom: 9px;
+}
+
+
+
