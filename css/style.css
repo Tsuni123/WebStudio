@@ -8,15 +8,40 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+   
 } 
+
 
 .section-hero{
    padding-top: 200px;
    padding-bottom: 200px;
-  background-image: url(../herobg.png);
+  background: url(../herobg.png);
+  background-image: linear-gradient(hsla(300%, 200%, 100%, 0.3),60%, ) coral,
+  url(../herobg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+}
+
+:root{
+   --primary: grey;
+   --secondary: #808080;
+}
+
+
+.container-gradient{
+   background: linear-gradient(135deg var(--primary), var(--secondary)), url(../herobg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+
+.section-hero:hover{
+  
+   color: white;
+  
 }
 
 .section-hero-title{
@@ -118,10 +143,14 @@ margin-bottom: 50px;
    margin-left: auto;
 }
 
+.contacts-list-link{
+   display: flex;
+   gap: 10px;
+}
+
 .contacts-list-item{
    color: #757575;
    font-size: 14px;
-
    font-weight: 500;
    line-height: normal;
    letter-spacing: 0.28px;
@@ -133,8 +162,8 @@ margin-bottom: 50px;
 
 
 .features-list{
-   gap: 30px;
-   display: flex;
+ display: flex;
+ gap: 30px;
 }
 
 .features-list-title{
@@ -193,6 +222,10 @@ letter-spacing: 1.08px;
    gap: 30px;
 }
 
+.team-list-content-wrap{
+   background-color: white;
+}
+
 .team-list-title{
    color: #212121;
 text-align: center;
@@ -213,6 +246,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
+margin-top: 10px;
 }
 
 .team-list-img{
@@ -234,8 +268,10 @@ letter-spacing: 0.48px;
    color: white;
 }
 
+.features-list-item-fourth{
+
+}
 .features-list-item::before{ 
-   content: "";
    background-image: url ;
    background-repeat:no-repeat;
    display: inline-block;
@@ -250,8 +286,7 @@ letter-spacing: 0.48px;
 } 
 
 .features-list-item-first::before{
-   content:"" ;
-   background-image: url(/images/Group\ 1.jpg) ;
+   background-image: url() ;
    background-repeat: no-repeat;
    background-position: center;
    display: inline-block;
@@ -262,7 +297,7 @@ letter-spacing: 0.48px;
 }
 .features-list-item-second::before{
    content:"" ;
-   background-image: url(/images/Group\ 2.jpg) ;
+   background-image: url(/images/Group2.jpg) ;
    background-repeat: no-repeat;
    background-position: center;
    display: inline-block;
@@ -274,7 +309,7 @@ letter-spacing: 0.48px;
 
 .features-list-item-third::before{
    content:"" ;
-   background-image: url(/images/Group\ 3.jpg) ;
+   background-image: url(/images/Group3.jpg) ;
    background-repeat: no-repeat;
    background-position: center;
    display: inline-block;
@@ -285,7 +320,7 @@ letter-spacing: 0.48px;
 }
 .features-list-item-fourth::before{
    content:"" ;
-   background-image: url(/images/Group\ 4.jpg) ;
+   background-image: url(/images/Group4.jpg) ;
    background-repeat: no-repeat;
    background-position: center;
    display: inline-block;
@@ -322,9 +357,7 @@ letter-spacing: 0.48px;
    text-align: center;
 }
 
-.footer{
-   background-color: #2F303A;
-}
+
 
 .address{
    margin-top: 20px;
@@ -423,9 +456,60 @@ letter-spacing: 0.48px;
 
 
 .header-studio{
-   
-color: black;
+   color: black;
+}
 
+
+.svg-header:hover{
+color: #2196F3;
+}
+
+.svg-team-list{
+   display: flex;
+   gap: 30px;
+   margin-top: 28px;
+   margin-left: 40px;
+   margin-bottom: 10px;
+}
+
+
+.client-para{
+   color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.client-list{
+   display: flex;
+   gap: 30px;
+}
+
+.client-svg{
+   padding: 16px 32px 16px 32px;
+   border-radius: 2px;
+   border-style: solid grey;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+   background-color: #2F303A;
 }
 
 .footer-logo{
