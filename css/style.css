@@ -14,8 +14,7 @@ body{
 .section-hero{
    padding-top: 200px;
    padding-bottom: 200px;
-  background: url(../herobg.png);
-  background-image: linear-gradient(hsla(300%, 200%, 100%, 0.3),60%, ) coral,
+  background-image: linear-gradient(#2F303A66,#2F303A66),
   url(../herobg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -28,14 +27,9 @@ body{
    --secondary: #808080;
 }
 
-
-.container-gradient{
-   background: linear-gradient(135deg var(--primary), var(--secondary)), url(../herobg.png);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
+.header-studio{
+   color: #212121;
 }
-
 
 .section-hero:hover{
   
@@ -200,6 +194,11 @@ letter-spacing: 0.42px;
    margin-top: 50px;
 }
 
+.work-list-img{
+
+   z-index: 1;
+}
+
 .section-work-title{
    text-align: center;
    color: #212121;
@@ -223,16 +222,49 @@ line-height: normal;
 letter-spacing: 1.08px;
 }
 
+.team-svg:hover{
+   fill: #2196F3;
+}
+
 .team-list{
    display: flex;
    gap: 30px;
+}
+
+.client-svg-list{
+   fill: #AFB1B8;
+   border: solid #AFB1B8 1px;
+   border-radius: 4px;
+   height: 70px;
+  padding: 16px 2px 16px 2px;
+
+}
+
+.team-svg-final{
+   fill: #AFB1B8;
 }
 
 .team-list-content-wrap{
    background-color: white;
    width: 270px;
    border-radius: 4px;
+  
+  
 }
+
+.team-social-item{
+   padding: 12px;
+   border-radius: 50%;
+}
+
+.team-social-item:hover{
+background-color: #2196F3;
+}
+
+.team-social-item:hover .team-svg-final{
+   fill: #FFF;
+}
+
 
 .team-list-title{
    color: #212121;
@@ -273,6 +305,11 @@ margin-top: 10px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    text-align: center;
    border-radius: 4px;
+}
+
+.team-social-list{
+  display: flex;
+  justify-content: center;
 }
 
 .address{
@@ -360,7 +397,7 @@ margin-top: 10px;
    margin: 30px;
 }
 .portfolio-list{
-   display flex;
+   display: flex;
    flex-wrap: wrap;
  align-items: center;
  column-count: 3;
@@ -447,8 +484,8 @@ use{
    padding: 0px;
 }
 
-.svg-header:hover{
-fill: #2196F3;
+svg:hover{
+   fill: #2196F3;
 }
 
 .svg-team-list{
@@ -457,6 +494,14 @@ fill: #2196F3;
    margin-top: 28px;
    margin-left: 50px;
    margin-bottom: 10px;
+}
+.svg-team-list-og{
+  
+   display: flex;
+   gap: 30px;
+ padding: 2px;
+ justify-content: space-around;
+ margin: 0px 20px 0px 20px;
 }
 
 
@@ -511,6 +556,17 @@ fill: #2196F3;
   z-index: 2;
 }
 
+.overlay2{
+   position: relative;
+   z-index: 2;
+   background: rgba(47, 48, 58, 0.80);
+   padding: 27px 102px 27px 102px;
+   fill: #808080;
+}
+
+.overlay2:hover{
+   
+}
 
 .box:hover{
    position: relative;
@@ -556,11 +612,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
-}
-
-.footer-sec-div{
-
-   !!!!!!!
 }
 
 .footer-parag{
